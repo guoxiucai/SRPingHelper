@@ -1,0 +1,358 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D3BC6C51CFEC93F005107C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D3BC6C41CFEC93F005107C7 /* main.m */; };
+		4D3BC6C81CFEC93F005107C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D3BC6C71CFEC93F005107C7 /* AppDelegate.m */; };
+		4D3BC6CB1CFEC93F005107C7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D3BC6CA1CFEC93F005107C7 /* ViewController.m */; };
+		4D3BC6CE1CFEC93F005107C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D3BC6CC1CFEC93F005107C7 /* Main.storyboard */; };
+		4D3BC6D01CFEC93F005107C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D3BC6CF1CFEC93F005107C7 /* Assets.xcassets */; };
+		4D3BC6D31CFEC93F005107C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D3BC6D11CFEC93F005107C7 /* LaunchScreen.storyboard */; };
+		4D3BC6E81CFECF23005107C7 /* SimplePing.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D3BC6E51CFECF23005107C7 /* SimplePing.m */; };
+		4D3BC6E91CFECF23005107C7 /* SRPingHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D3BC6E71CFECF23005107C7 /* SRPingHelper.m */; };
+		4D3BC6ED1CFED55F005107C7 /* PingResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D3BC6EC1CFED55F005107C7 /* PingResult.m */; };
+		4D3BC6F11CFEDB17005107C7 /* PingResultViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D3BC6F01CFEDB17005107C7 /* PingResultViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4D3BC6C01CFEC93F005107C7 /* SRPingHeplerTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SRPingHeplerTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D3BC6C41CFEC93F005107C7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4D3BC6C61CFEC93F005107C7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4D3BC6C71CFEC93F005107C7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4D3BC6C91CFEC93F005107C7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4D3BC6CA1CFEC93F005107C7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4D3BC6CD1CFEC93F005107C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4D3BC6CF1CFEC93F005107C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4D3BC6D21CFEC93F005107C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4D3BC6D41CFEC93F005107C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D3BC6E41CFECF23005107C7 /* SimplePing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimplePing.h; sourceTree = "<group>"; };
+		4D3BC6E51CFECF23005107C7 /* SimplePing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimplePing.m; sourceTree = "<group>"; };
+		4D3BC6E61CFECF23005107C7 /* SRPingHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRPingHelper.h; sourceTree = "<group>"; };
+		4D3BC6E71CFECF23005107C7 /* SRPingHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRPingHelper.m; sourceTree = "<group>"; };
+		4D3BC6EB1CFED55F005107C7 /* PingResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PingResult.h; sourceTree = "<group>"; };
+		4D3BC6EC1CFED55F005107C7 /* PingResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PingResult.m; sourceTree = "<group>"; };
+		4D3BC6EF1CFEDB17005107C7 /* PingResultViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PingResultViewCell.h; sourceTree = "<group>"; };
+		4D3BC6F01CFEDB17005107C7 /* PingResultViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PingResultViewCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4D3BC6BD1CFEC93F005107C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D3BC6B71CFEC93F005107C7 = {
+			isa = PBXGroup;
+			children = (
+				4D3BC6C21CFEC93F005107C7 /* SRPingHeplerTest */,
+				4D3BC6C11CFEC93F005107C7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4D3BC6C11CFEC93F005107C7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D3BC6C01CFEC93F005107C7 /* SRPingHeplerTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D3BC6C21CFEC93F005107C7 /* SRPingHeplerTest */ = {
+			isa = PBXGroup;
+			children = (
+				4D3BC6EE1CFEDAF4005107C7 /* CellView */,
+				4D3BC6EA1CFED549005107C7 /* Model */,
+				4D3BC6E31CFECF23005107C7 /* SRPingHepler */,
+				4D3BC6C61CFEC93F005107C7 /* AppDelegate.h */,
+				4D3BC6C71CFEC93F005107C7 /* AppDelegate.m */,
+				4D3BC6C91CFEC93F005107C7 /* ViewController.h */,
+				4D3BC6CA1CFEC93F005107C7 /* ViewController.m */,
+				4D3BC6CC1CFEC93F005107C7 /* Main.storyboard */,
+				4D3BC6CF1CFEC93F005107C7 /* Assets.xcassets */,
+				4D3BC6D11CFEC93F005107C7 /* LaunchScreen.storyboard */,
+				4D3BC6D41CFEC93F005107C7 /* Info.plist */,
+				4D3BC6C31CFEC93F005107C7 /* Supporting Files */,
+			);
+			path = SRPingHeplerTest;
+			sourceTree = "<group>";
+		};
+		4D3BC6C31CFEC93F005107C7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4D3BC6C41CFEC93F005107C7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4D3BC6E31CFECF23005107C7 /* SRPingHepler */ = {
+			isa = PBXGroup;
+			children = (
+				4D3BC6E41CFECF23005107C7 /* SimplePing.h */,
+				4D3BC6E51CFECF23005107C7 /* SimplePing.m */,
+				4D3BC6E61CFECF23005107C7 /* SRPingHelper.h */,
+				4D3BC6E71CFECF23005107C7 /* SRPingHelper.m */,
+			);
+			path = SRPingHepler;
+			sourceTree = SOURCE_ROOT;
+		};
+		4D3BC6EA1CFED549005107C7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4D3BC6EB1CFED55F005107C7 /* PingResult.h */,
+				4D3BC6EC1CFED55F005107C7 /* PingResult.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		4D3BC6EE1CFEDAF4005107C7 /* CellView */ = {
+			isa = PBXGroup;
+			children = (
+				4D3BC6EF1CFEDB17005107C7 /* PingResultViewCell.h */,
+				4D3BC6F01CFEDB17005107C7 /* PingResultViewCell.m */,
+			);
+			name = CellView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4D3BC6BF1CFEC93F005107C7 /* SRPingHeplerTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D3BC6D71CFEC93F005107C7 /* Build configuration list for PBXNativeTarget "SRPingHeplerTest" */;
+			buildPhases = (
+				4D3BC6BC1CFEC93F005107C7 /* Sources */,
+				4D3BC6BD1CFEC93F005107C7 /* Frameworks */,
+				4D3BC6BE1CFEC93F005107C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SRPingHeplerTest;
+			productName = SRPingHeplerTest;
+			productReference = 4D3BC6C01CFEC93F005107C7 /* SRPingHeplerTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4D3BC6B81CFEC93F005107C7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = seewo;
+				TargetAttributes = {
+					4D3BC6BF1CFEC93F005107C7 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 4D3BC6BB1CFEC93F005107C7 /* Build configuration list for PBXProject "SRPingHeplerTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4D3BC6B71CFEC93F005107C7;
+			productRefGroup = 4D3BC6C11CFEC93F005107C7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4D3BC6BF1CFEC93F005107C7 /* SRPingHeplerTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4D3BC6BE1CFEC93F005107C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D3BC6D31CFEC93F005107C7 /* LaunchScreen.storyboard in Resources */,
+				4D3BC6D01CFEC93F005107C7 /* Assets.xcassets in Resources */,
+				4D3BC6CE1CFEC93F005107C7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D3BC6BC1CFEC93F005107C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D3BC6CB1CFEC93F005107C7 /* ViewController.m in Sources */,
+				4D3BC6C81CFEC93F005107C7 /* AppDelegate.m in Sources */,
+				4D3BC6ED1CFED55F005107C7 /* PingResult.m in Sources */,
+				4D3BC6C51CFEC93F005107C7 /* main.m in Sources */,
+				4D3BC6E81CFECF23005107C7 /* SimplePing.m in Sources */,
+				4D3BC6F11CFEDB17005107C7 /* PingResultViewCell.m in Sources */,
+				4D3BC6E91CFECF23005107C7 /* SRPingHelper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4D3BC6CC1CFEC93F005107C7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D3BC6CD1CFEC93F005107C7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4D3BC6D11CFEC93F005107C7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D3BC6D21CFEC93F005107C7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4D3BC6D51CFEC93F005107C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4D3BC6D61CFEC93F005107C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4D3BC6D81CFEC93F005107C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SRPingHeplerTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.seewo.SRPingHeplerTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4D3BC6D91CFEC93F005107C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SRPingHeplerTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.seewo.SRPingHeplerTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4D3BC6BB1CFEC93F005107C7 /* Build configuration list for PBXProject "SRPingHeplerTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D3BC6D51CFEC93F005107C7 /* Debug */,
+				4D3BC6D61CFEC93F005107C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D3BC6D71CFEC93F005107C7 /* Build configuration list for PBXNativeTarget "SRPingHeplerTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D3BC6D81CFEC93F005107C7 /* Debug */,
+				4D3BC6D91CFEC93F005107C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4D3BC6B81CFEC93F005107C7 /* Project object */;
+}
