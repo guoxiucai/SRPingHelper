@@ -39,7 +39,9 @@ An encapsulation of Apple's SimplePing, support RTT and packetsloss result.
 #### Installation
 
 ```
-pod 'SRPingHelper'
+Drag the floder SRPingHepler to your project.
+Import the main header file：#import "SRPingHepler.h"
+
 ```
 
 #### Contact
